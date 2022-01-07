@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0059;
+}
+#quote-box{
+width: 80vw;
+height: 70vh;
+background: chartreuse;
+margin: 10%;
+border-radius: 7px;
+}
+#text{
+width: 90%;
+margin: 5%;
+padding: 5%;
+font-size: 3rem;
+
+}
+#author{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+font-size: 2rem;
+margin-right: 10%;
+margin-bottom: 3%;
+}
+#new-quote{
+    background: #0059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    margin-left: 50%;
+font-size: 1.5rem;
+color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#new-quote:hover{
+    opacity: 0.9;
+}
+#tweet-quote {
+    margin-left: 7%;
+    background: #0059;
+    height: 80px;
+    color: #fff;
+    border-radius: 4px;
+}
+#tweet-quote:hover{
+    opacity: 0.9;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
+.tumblr{
+    margin-left: 20px;
+    background: #0059;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 4px;
+}
